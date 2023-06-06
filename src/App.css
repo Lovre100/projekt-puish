@@ -1,0 +1,147 @@
+body{
+  background-color: rgb(160, 213, 213);
+}
+*{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+Link, a{
+  color: yellow;
+}
+p{
+  color:white;
+}
+Link:hover, a:hover{
+  color: lightgray;
+}
+
+Link:visited, a:visited{
+  color: lightblue;
+}
+
+img{
+  width: 680px;
+  height: 460px;
+}
+
+.navigacija{
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+}
+td{
+  color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.slika_pocetna{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.slika_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 128%;
+  background-color: rgba(0, 0, 0, 0.641);
+  z-index: 3;
+
+}
+.naslov_napulj{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 70px;
+  text-transform: uppercase;
+  color: white;
+  z-index: 10;
+  text-shadow: 2px 2px 2px blue;
+}
+
+.slika3{
+  margin-top: 15%;
+  margin-left: 60%;
+  border: 3px solid navy;
+  box-shadow: -3px 3px 3px blue;
+}
+
+.tekst_napulj{
+  position: absolute;
+  color: white;
+  top: 30%;
+  left: 5%;
+  width: 1000px;
+  font-size: larger;
+  background-color: rgb(25, 25, 221);
+  padding: 15px;
+  box-shadow: 3px 3px 3px navy;
+  border-radius: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.turizam1{
+  color: white;
+  position: absolute;
+  top: 10%;
+  width: 90%;
+  height: 90%;
+  margin-left: 150px;
+  margin-right: 15  0px;
+  background-color: rgb(38, 38, 205);
+  font-size: 50px;
+  font-weight: bold;
+
+}
+.turizam1 h1{
+ text-align: center;
+ text-decoration: underline;
+
+}
+
+.turizam1 img{
+  border: 4px solid green;
+ 
+ }
+
+ .povijest{
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    background-color: rgb(17, 17, 62);
+    padding: 50px;
+    border-radius: 100px;
+    border: 3px solid rgb(11, 25, 11);
+
+ }
+ .povijest h1{
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+
+}
+
+.povijest img{
+
+    top: 300px;
+    text-align: center;
+    background-color: rgb(17, 17, 62);
+    padding: 20px;
+    border-radius: 100px;
+    border: 3px solid rgb(11, 25, 11);
+
+}
